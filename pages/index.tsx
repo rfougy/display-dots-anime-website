@@ -16,20 +16,22 @@ const Home: NextPage = () => {
       <DisplayDotsCoordsProvider>
         <Box>
           <Description isIntroText>
-            Hi, my name is Riviere, welcome to:
+            Hi, my name is Riviere, and this is:
           </Description>
           <Margin>
             <DisplayDotsAnime
-              text={"RIV.SYSTEMS"}
+              text="DISPLAY DOTS ANIME"
               includeRestartButton={true}
             />
           </Margin>
           <Description>
-            I created this website to share
+            A React Animation Library
             <br />
-            my works, projects and experiences.
+            for the Display Dots Interface.
           </Description>
-          <Button href={`/content`}>EXPLORE SYSTEMS</Button>
+          <Button href="https://github.com/rfougy/display-dots-anime/">
+            VISIT REPO
+          </Button>
         </Box>
       </DisplayDotsCoordsProvider>
     </>
@@ -43,9 +45,9 @@ export const getStaticProps: GetStaticProps = async () => {
     props: {
       metaTagInputs: {
         page: "home",
-        title: "RIV.SYSTEMS: Fashion, Web Development, Life Experiences",
+        title: "Display Dots Anime: A React Animation Library",
         description:
-          "Welcome to RIV.SYSTEMS, a personal portfolio and blog website featuring content on fashion, web development, design and more.",
+          "Welcome to Display Dots Anime, a React animation library for the Display Dots typeface.",
         isHomePage: true,
       },
       isDisplayDotsPage: true,
