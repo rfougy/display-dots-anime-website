@@ -1,4 +1,3 @@
-import NavMenu from "../../nav-menu/NavMenu";
 import ThemeToggleButton from "../../../features/theme-toggle/ThemeToggleButton";
 import NavLogo from "../../nav-logo/NavLogo";
 
@@ -15,7 +14,6 @@ const DefaultLayout: React.FC<{
         <ThemeToggleButton toggleTheme={toggleTheme} />
       </FeaturesBox>
     </LogoAndButtonsBox>
-    <NavMenu />
   </NavBox>
 );
 

@@ -65,7 +65,7 @@ const App = ({ Component, pageProps }: AppProps) => {
             >
               <Component {...pageProps} />
             </AppComponentWrapper>
-            <Footer />
+            {/* <Footer /> */}
           </PageBox>
         </SearchProvider>
       </ThemeProvider>
