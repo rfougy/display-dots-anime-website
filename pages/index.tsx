@@ -4,34 +4,36 @@ import DisplayDotsCoordsProvider from "../context/DisplayDotsCoordsContext";
 import DisplayDotsAnime from "../components/features/display-dots-anime/DisplayDotsAnime";
 import Button from "../components/shared/button/Button";
 
-import {
-  Box,
-  Description,
-  Margin,
-} from "../styles/pages/DisplayDotsPage.styled";
+import { Box, Buttons, Description, Margin } from "../styles/pages/Home.styled";
 
 const Home: NextPage = () => {
   return (
     <>
       <DisplayDotsCoordsProvider>
         <Box>
-          <Description isIntroText>
-            Hi, my name is Riviere, and this is:
-          </Description>
           <Margin>
             <DisplayDotsAnime
               text="DISPLAY DOTS ANIME"
               includeRestartButton={true}
             />
           </Margin>
-          <Description>
-            A React Animation Library
-            <br />
-            for the Display Dots Interface.
+          <Description isIntroText>
+            A React Animation Library for the Display Dots Interface.
           </Description>
-          <Button href="https://github.com/rfougy/display-dots-anime/">
-            VISIT REPO
-          </Button>
+          <br />
+          <Description>
+            This website is currently under construction...
+            <br />
+            Please refer to the links below for more info. Thanks!
+          </Description>
+          <Buttons>
+            <Button href="https://www.npmjs.com/package/display-dots-anime">
+              NPM
+            </Button>
+            <Button href="https://github.com/rfougy/display-dots-anime/">
+              GITHUB
+            </Button>
+          </Buttons>
         </Box>
       </DisplayDotsCoordsProvider>
     </>

@@ -5,11 +5,7 @@ import DisplayDotsCoordsProvider from "../../../context/DisplayDotsCoordsContext
 import DisplayDotsAnime from "../../features/display-dots-anime/DisplayDotsAnime";
 import Button from "../button/Button";
 
-import {
-  Box,
-  Description,
-  Margin,
-} from "../../../styles/pages/DisplayDotsPage.styled";
+import { Box, Description, Margin } from "../../../styles/pages/Home.styled";
 
 const NotFound: React.FC<{ title: string; copy: string }> = ({
   title,
