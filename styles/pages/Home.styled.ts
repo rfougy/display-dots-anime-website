@@ -17,6 +17,7 @@ export const Description = styled.p`
     isIntroText &&
     `
     margin-top: 0;
+    font-weight: bold;
     `}
 `;
 
@@ -40,4 +41,9 @@ export const Button = styled.button`
     background-color: ${(props: any) =>
       props.theme.id === "light" ? props.theme.primary : "#2D2D2D"};
   }
+`;
+
+export const Buttons = styled.div`
+  display: flex;
+  gap: 1rem;
 `;
