@@ -27,12 +27,12 @@ const PageHead: React.FC<{
         <meta
           property="og:site_name"
           key={`og-site-name-${page}`}
-          content=" Display Dots Anime"
+          content="Display Dots Anime"
         />
         <meta
           property="og:title"
           key={`og-title-${page}`}
-          content={`${title} |  Display Dots Anime`}
+          content={`${title} | Display Dots Anime`}
         />
         <meta
           property="og:description"
