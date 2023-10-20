@@ -18,7 +18,7 @@ const Home: NextPage = () => {
             />
           </Margin>
           <Description isIntroText>
-            A React Animation Library for the Display Dots Interface.
+            A React Animation Library for the Display Dots Typeface.
           </Description>
           <br />
           <Description>
