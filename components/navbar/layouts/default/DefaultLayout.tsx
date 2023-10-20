@@ -9,7 +9,6 @@ const DefaultLayout: React.FC<{
 }> = ({ toggleTheme }) => (
   <NavBox>
     <LogoAndButtonsBox>
-      <NavLogo />
       <FeaturesBox>
         <ThemeToggleButton toggleTheme={toggleTheme} />
       </FeaturesBox>
