@@ -11,9 +11,21 @@ export const Dot = styled.div`
     isDeactivated ? 0 : 1};
   width: 0.425rem;
 
-  @media (max-width: ${breakpoints.xs}) {
+  @media (max-width: ${breakpoints.sm}) {
     height: 0.25rem;
     margin: 0.05rem;
     width: 0.25rem;
+  }
+
+  @media (max-width: ${breakpoints.xs}) {
+    height: 0.1rem;
+    margin: 0.1rem;
+    width: 0.1rem;
+  }
+
+  @media (max-width: ${breakpoints.xxs}) {
+    height: 0.075rem;
+    margin: 0.075rem;
+    width: 0.075rem;
   }
 `;

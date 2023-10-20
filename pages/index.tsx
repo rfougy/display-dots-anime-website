@@ -22,9 +22,9 @@ const Home: NextPage = () => {
           </Description>
           <br />
           <Description>
-            This website is currently under construction...
+            Please refer to the links below for installation and information.
             <br />
-            Please refer to the links below for more info. Thanks!
+            Thanks!
           </Description>
           <Buttons>
             <Button href="https://www.npmjs.com/package/display-dots-anime">
