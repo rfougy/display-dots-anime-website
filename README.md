@@ -1,27 +1,31 @@
-<img width="838" alt="RIV.SYSTEMS logo" src="https://github.com/rfougy/riv.systems/assets/77861258/55a2a9bb-53e4-47b0-8b6b-78e97ee3b98b">
- 
-## Overview
+<img alt="Display Dots Anime Logo" src="https://github.com/rfougy/display-dots-anime/assets/77861258/8d78c0cd-b591-4bda-bbb6-b0e129d33af1">
 
-RIV.SYSTEMS is a Portfolio / Blog Hybrid Progressive Web App, built with scalability and minimal dependencies in mind. The project's only expense is for the domain, with frontend deployment on Vercel and content hosted directly in the repository.
+<h4 align="center">Display Dots Anime: A React Animation Library for the Display Dots Typeface</h4>
 
-### Features
+<table align="center">
+  <tbody>
+    <tr>
+      <td>
+        <a href="https://display-dots-anime.vercel.app/">Website</a>
+      </td>
+      <td>
+        <a href="https://www.npmjs.com/package/display-dots-anime">NPM</a>
+      </td>
+      <td>
+        <a href="https://github.com/rfougy/display-dots-anime">GitHub Repo</a>
+      </td>
+    </tr>
+  </tbody>
+</table>
 
-- Display Dots Animation
-- Search
-- Filtering, Pagination, Views
-- Music Player
-- Text Highlighter
-- Progressive Web App Capabilities
-- Dynamic Open Graph and Meta Tags
+## Getting Started
 
-### Tech Stack
+Please refer to the [Display Dots Anime GitHub Repo](https://github.com/rfougy/display-dots-anime) to get started.
 
-<div>
-  <img src="https://github.com/devicons/devicon/blob/master/icons/react/react-original-wordmark.svg" title="React" alt="React" width="40" height="40"/>&nbsp;
-  <img src="https://github.com/devicons/devicon/blob/master/icons/nextjs/nextjs-original.svg" title="Next JS" **alt="Next JS" width="40" height="40"/>&nbsp;
-  <img src="https://github.com/devicons/devicon/blob/master/icons/javascript/javascript-original.svg" title="JavaScript" alt="JavaScript" width="40" height="40"/>&nbsp;
-  <img src="https://github.com/devicons/devicon/blob/master/icons/typescript/typescript-original.svg" title="Typescript" **alt="Typescript" width="40" height="40"/>&nbsp;
-  <img src="https://github.com/devicons/devicon/blob/master/icons/css3/css3-original.svg" title="Figma" **alt="CSS" width="40" height="40"/>
-  <img src="https://github.com/devicons/devicon/blob/master/icons/git/git-original.svg" title="Git" **alt="Git" width="40" height="40"/>
-  <img src="https://github.com/devicons/devicon/blob/master/icons/figma/figma-original.svg" title="Figma" **alt="Figma" width="40" height="40"/>
-</div>
+## Demos and Examples
+
+* [RIV.SYSTEMS](https://riv.systems/)
+
+##
+
+Created by [Riviere Fougy](https://riv.systems/)
