@@ -10,13 +10,14 @@ const PageHead: React.FC<{
   isHomePage?: boolean;
 }> = ({ page, title, description, image, isHomePage }) => {
   const { asPath }: NextRouter = useRouter();
-  const url: string = "https://riv.systems" + asPath;
-  const defaultImage: string = "https://i.imgur.com/dk7mgAz.png"; // riv.systems logo
+  const url: string = "https://display-dots-anime.vercel.app" + asPath;
+  const defaultImage: string =
+    "https://github.com/rfougy/display-dots-anime-website/assets/77861258/cccd95b2-6f81-4ce8-aeae-9f7a4abd139b";
 
   return (
     <>
       <Head>
-        <title>{isHomePage ? title : `${title} | RIV.SYSTEMS`}</title>
+        <title>{isHomePage ? title : `${title} | Display Dots Anime`}</title>
         <meta
           name="description"
           key={`description-${page}`}
@@ -26,12 +27,12 @@ const PageHead: React.FC<{
         <meta
           property="og:site_name"
           key={`og-site-name-${page}`}
-          content="RIV.SYSTEMS"
+          content="Display Dots Anime"
         />
         <meta
           property="og:title"
           key={`og-title-${page}`}
-          content={`${title} | RIV.SYSTEMS`}
+          content={`${title} | Display Dots Anime`}
         />
         <meta
           property="og:description"
