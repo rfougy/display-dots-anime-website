@@ -57,7 +57,7 @@ const App = ({ Component, pageProps }: AppProps) => {
       <ThemeProvider theme={currTheme}>
         <GlobalTheme styles={globalColors} />
         <SearchProvider>
-          {!isLinkInBioPage && <Navbar toggleTheme={toggleTheme} />}
+          <Navbar toggleTheme={toggleTheme} />
           <PageBox isLinkInBioPage={isLinkInBioPage}>
             <AppComponentWrapper
               isDisplayDotsPage={isDisplayDotsPage}
@@ -65,7 +65,7 @@ const App = ({ Component, pageProps }: AppProps) => {
             >
               <Component {...pageProps} />
             </AppComponentWrapper>
-            {!isLinkInBioPage && <Footer />}
+            <Footer />
           </PageBox>
         </SearchProvider>
       </ThemeProvider>
